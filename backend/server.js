@@ -13,7 +13,7 @@ const userRoutes = require('./routes/userRoutes');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors("https://bharath14-star.github.io/inventory_car/"));
+app.use(cors("https://bharath14-star.github.io/inventory_car1/"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
